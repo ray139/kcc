@@ -1,0 +1,104 @@
+{
+  "children": [
+    {
+      "id": 1,
+      "first_name": "Paisley",
+      "last_name": "Morris",
+      "birthdate": "2020-04-23T00:00:00.000Z",
+      "products": [
+        "0a970366-02dd-4ace-96a2-07f649f5c35e",
+        "f78db826-a214-43b0-bbbd-3ac15bbc7b05"
+      ],
+      "next_size_date": "2021-01-02T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Sarah",
+      "last_name": "Morris",
+      "birthdate": "2020-04-23T00:00:00.000Z",
+      "products": [
+        "0a970366-02dd-4ace-96a2-07f649f5c35e",
+        "f78db826-a214-43b0-bbbd-3ac15bbc7b05"
+      ],
+      "next_size_date": "2021-01-02T00:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Sally",
+      "last_name": "Morris",
+      "birthdate": "2018-12-23T00:00:00.000Z",
+      "products": [
+        "f78db826-a214-43b0-bbbd-3ac15bbc7b05"
+      ],
+      "next_size_date": "2021-02-02T00:00:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "brand": "Huggies",
+      "Product": "Little Movers",
+      "size": "4",
+      "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e",
+      "order_url": "https://www.cvs.com/shop/huggies-little-movers-diapers-prodid-1070267",
+      "desc": "Huggies Little Movers Baby Diapers are designed for moving babies, with Double Grip Strips that hold the diaper in place during active play. Our #1 Fitting Diaper,* Little Movers feature a contoured shape and SnugFit Waistband for the perfect fit. Huggies DryTouch liner absorbs wetness on contact, while the absorbent Leak Lock System helps eliminate leaks for up to 12 hours of protection. Little Movers also feature a wetness indicator that changes color when wet. Plus with Huggies SizeUp indicator, you'll know when it's time for baby to move up to the next diaper size. "
+    },
+    {
+      "brand": "Huggies",
+      "Product": "Natural Care Baby Wipes",
+      "size": null,
+      "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05",
+      "order_url": "https://www.cvs.com/shop/huggies-natural-care-baby-wipes-unscented-prodid-1070317",
+      "desc": "Huggies Natural Care Sensitive Baby Wipes are made with plant-based ingredients, 99% purified water and 1% skin essential ingredients to provide a gentle clean for your baby's soft & delicate skin. Natural Care Sensitive Wipes are infused with aloe & vitamin E to help keep baby's skin healthy and moisturized. They're also hypoallergenic, dermatologically tested & pH-balanced to help maintain healthy skin. Natural Care unscented baby wipes are safe for sensitive skin with no harsh ingredients. "
+    },
+    {
+      "brand": "GoodNites",
+      "Product": "Underpants",
+      "size": "L/XL",
+      "guid": "406d6913-91da-4b1a-863a-c193d69bdee0",
+      "order_url": "https://www.cvs.com/shop/goodnites-bedwetting-underwear-for-girls-l-xl-11-ct-packaging-may-vary-prodid-277661",
+      "desc": "Help your child wake up dry with the #1 Nighttime Underwear* for bedwetting. Goodnites provide the best nighttime protection guaranteed** for kids age 3-12. These disposable pants feature Double Leg Barriers to help eliminate leaks and 5 Layer Protection to absorb & lock away wetness. Goodnites also feature a super stretchy waistband for a comfortable, underwear-like fit that accommodates all body shapes"
+    }
+  ],
+  "inventory": [
+    {
+      "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e",
+      "qty": 124
+    },
+    {
+      "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05",
+      "qty": 224
+    },
+    {
+      "guid": "406d6913-91da-4b1a-863a-c193d69bdee0",
+      "qty": 36
+    }
+  ],
+  "daily_usage": [
+    {
+      "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e",
+      "qty": 18
+    },
+    {
+      "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05",
+      "qty": 27
+    },
+    {
+      "guid": "406d6913-91da-4b1a-863a-c193d69bdee0",
+      "qty": 1
+    }
+  ],
+  "last_order_date": [
+    {
+      "guid": "0a970366-02dd-4ace-96a2-07f649f5c35e",
+      "date": "2020-12-23T22:15:40.120Z"
+    },
+    {
+      "guid": "f78db826-a214-43b0-bbbd-3ac15bbc7b05",
+      "date": "2020-11-23T18:25:43.511Z"
+    },
+    {
+      "guid": "406d6913-91da-4b1a-863a-c193d69bdee0",
+      "date": "2020-11-23T18:25:43.511Z"
+    }
+  ]
+}

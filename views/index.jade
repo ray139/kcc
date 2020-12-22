@@ -1,0 +1,33 @@
+extends layout
+
+block content
+  div(class="container")
+    div(class="row")
+      div(class="col-lg-12")
+        h1(class="text-center") Welcome to Kimberly-Clark
+        div(class="table-responsive")
+          table(class="table table-hover")
+            thead(class="thead-dark")
+              tr
+                th #
+                th Brand
+                th Description
+                th Daily Usage
+                th Inventory
+                th Last Order Date
+                th Next Size Date        
+            tbody
+              each data in allData.products
+                tr(onclick= "myFunction('#{data.info[0]}')")
+                  td=$index+1
+                  td=data.brand
+                  td=data.desc
+                  td=data.daiQty
+                  td=data.invQty
+                  td=new Date(data.lastDate).getMonth()+'/'+new Date(data.lastDate).getDate()+'/'+new Date(data.lastDate).getFullYear()
+                  td
+                    each da in data.info                      
+                      p=new Date(da.next_size_date).getMonth()+'/'+new Date(da.next_size_date).getDate()+'/'+new Date(da.next_size_date).getFullYear()
+                  
+  
+      
